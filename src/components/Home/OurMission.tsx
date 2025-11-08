@@ -192,7 +192,7 @@ export default function OurMission() {
 
         {/* Bottom CTA */}
         <div className="mt-24 text-center">
-          <div className="inline-block p-8 bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 rounded-2xl shadow-lg">
+          <div className="inline-block p-8 bg-linear-to-br from-slate-50 to-slate-100 border border-slate-200 rounded-2xl shadow-lg">
             <div className="flex items-center justify-center gap-3 mb-3">
               <div className="w-12 h-12 bg-slate-900 rounded-full flex items-center justify-center">
                 <Compass className="w-6 h-6 text-white" strokeWidth={2.5} />
@@ -202,7 +202,7 @@ export default function OurMission() {
               </h3>
             </div>
             <p className="text-slate-600 font-be-vietnam-pro max-w-2xl mx-auto">
-              From building infrastructure that last generations to crafting digital solutions that transform industries—our six core objectives drive us to deliver excellence across every sector we serve. Your vision, our expertise.
+              From building infrastructure that lasts generations to crafting digital solutions that transform industries—our six core objectives drive us to deliver excellence across every sector we serve. Your vision, our expertise.
             </p>
           </div>
         </div>
