@@ -202,7 +202,7 @@ export default function OurMission() {
               </h3>
             </div>
             <p className="text-slate-600 font-be-vietnam-pro max-w-2xl mx-auto">
-              From building infrastructure that lasts generations to crafting digital solutions that transform industries—our six core objectives drive us to deliver excellence across every sector we serve. Your vision, our expertise.
+              From building infrastructure that last generations to crafting digital solutions that transform industries—our six core objectives drive us to deliver excellence across every sector we serve. Your vision, our expertise.
             </p>
           </div>
         </div>
