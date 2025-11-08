@@ -73,7 +73,7 @@ export default function OurBusiness() {
     {
       slug: 'legal-services',
       // use local Nyaya image from public folder
-      logo: '/nyaya.jpeg',
+      logo: '/nyayaya.png',
       subtitle: 'Nyaysopan',
       description:
         'Connecting verified consultants, advisors, and advocates with clients for legal, civil, criminal, corporate, and family consultations via text, audio, and video. Includes document drafting, contract vetting, notarization, and e-stamping services.',
@@ -188,7 +188,9 @@ export default function OurBusiness() {
                 className="min-w-[250px] sm:min-w-[320px] md:min-w-[380px] lg:min-w-[400px] max-w-[480px] group snap-start"
               >
                 {/* Image Section */}
-                <div className="relative h-40 sm:h-52 md:h-80 flex items-center justify-center rounded-xl mb-4 sm:mb-6 transition-all duration-500 hover:shadow-2xl hover:shadow-slate-900/30 cursor-pointer overflow-hidden">
+                <div className={`relative h-40 sm:h-52 md:h-80 flex items-center justify-center rounded-xl mb-4 sm:mb-6 transition-all duration-500 cursor-pointer overflow-hidden ${
+                  i === 0 ? 'bg-white shadow-md hover:shadow-lg transition-shadow' : ''
+                }`}>
                   {/* Background Image */}
                   <Image
                     src={b.logo}
@@ -198,8 +200,6 @@ export default function OurBusiness() {
                     sizes="(max-width: 640px) 250px, (max-width: 768px) 320px, (max-width: 1024px) 380px, 400px"
                   />
 
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
 
                   {/* Hover Color Overlay */}
                   <div
@@ -227,10 +227,7 @@ export default function OurBusiness() {
                     <div className="pt-2">
                       <span
                         className="inline-flex items-center gap-2 text-sm sm:text-base font-semibold transition-all duration-300 font-be-vietnam-pro"
-                        style={{
-                          color:
-                            b.subtitle === 'Nyaysopan' ? '#1E40AF' : b.hoverColor,
-                        }}
+                        style={{ color: i === 0 ? '#1E40AF' : b.hoverColor }}
                       >
                         Learn More
                         <ChevronRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />

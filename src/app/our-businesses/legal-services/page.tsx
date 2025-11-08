@@ -8,15 +8,15 @@ export default function LegalServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative h-[400px] md:h-[500px] w-full">
+      <div className="relative h-[400px] md:h-[500px] w-full bg-white">
         <Image
-          src="/Nyaya.png"
+          src="/nyayaya.png"
           alt="Digital Professional Services Platform"
           fill
-          className="object-cover"
+          className="object-contain"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/70" />
 
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
           <Scale className="w-16 h-16 mb-4 text-blue-400" />
@@ -87,7 +87,6 @@ export default function LegalServicesPage() {
               'Transparent pricing: subscriptions, pay-per-minute, packaged consultations',
               'Identity verification and quality assurance of all professionals',
               'AI-driven tools, appointment scheduling, and document sharing portals',
-              'Partnerships with bar associations, educational institutions, and government bodies',
             ].map((reason, index) => (
               <li key={index} className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0" />

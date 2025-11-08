@@ -54,9 +54,9 @@ export default function OurVision() {
           </h2>
           <div className="w-16 h-1 bg-slate-900 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed font-be-vietnam-pro">
-            Gohiggler isn't just a <span className="font-semibold text-slate-900">legal-tech startup</span> — it's a <span className="font-semibold text-slate-900">revolution</span> in how India connects with <span className="font-semibold text-slate-900">justice</span>.
-            Founded by <span className="font-semibold text-slate-900">Jayvardhan Singh Kelawat</span> and <span className="font-semibold text-slate-900">Rajvardhan Singh Kelawat</span>, the company was built with a single belief:
-            every citizen deserves <span className="font-semibold text-slate-900">quick, affordable, and transparent</span> access to legal help.
+            Where <span className="font-semibold text-slate-900">technology meets tradition</span>—GOHIGGLER operates across five strategic verticals:
+            <span className="font-semibold text-slate-900">digital professional services, construction & infrastructure, trade & commerce, hospitality & tourism,</span> and <span className="font-semibold text-slate-900">handicrafts manufacturing</span>.
+            We don't just serve industries—we <span className="font-semibold text-slate-900">transform them</span> through <span className="font-semibold text-slate-900">innovation, transparency, and trust</span>.
           </p>
         </div>
 
