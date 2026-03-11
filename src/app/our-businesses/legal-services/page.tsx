@@ -66,7 +66,7 @@ export default function LegalServicesPage() {
                 key={index}
                 className="flex items-start gap-4 p-5 bg-slate-50 rounded-lg hover:bg-blue-50 transition-colors duration-300 border border-slate-200 hover:border-blue-300"
               >
-                <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
                 <span className="text-slate-800 font-be-vietnam-pro text-lg">
                   {service}
                 </span>
@@ -89,7 +89,7 @@ export default function LegalServicesPage() {
               'AI-driven tools, appointment scheduling, and document sharing portals',
             ].map((reason, index) => (
               <li key={index} className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0" />
+                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 shrink-0" />
                 <span className="text-slate-700 font-be-vietnam-pro text-lg">
                   {reason}
                 </span>
@@ -125,7 +125,9 @@ export default function LegalServicesPage() {
             Get affordable, accessible consultations via text, audio, or video.
           </p>
           <Link
-            href="/contact"
+            href="https://www.nyaysopan.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 font-be-vietnam-pro"
           >
             Get in Touch

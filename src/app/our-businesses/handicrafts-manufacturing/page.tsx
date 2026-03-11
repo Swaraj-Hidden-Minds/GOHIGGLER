@@ -16,7 +16,7 @@ export default function HandicraftsManufacturingPage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/70" />
 
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
           <Palette className="w-16 h-16 mb-4 text-amber-400" />
@@ -67,7 +67,7 @@ export default function HandicraftsManufacturingPage() {
                 key={index}
                 className="flex items-start gap-4 p-5 bg-slate-50 rounded-lg hover:bg-amber-50 transition-colors duration-300 border border-slate-200 hover:border-amber-300"
               >
-                <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-amber-600 shrink-0 mt-1" />
                 <span className="text-slate-800 font-be-vietnam-pro text-lg">
                   {service}
                 </span>
@@ -77,7 +77,7 @@ export default function HandicraftsManufacturingPage() {
         </section>
 
         {/* Why Choose Us */}
-        <section className="mb-16 bg-gradient-to-br from-amber-50 to-slate-50 p-8 md:p-12 rounded-2xl">
+        <section className="mb-16 bg-linear-to-br from-amber-50 to-slate-50 p-8 md:p-12 rounded-2xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-900 font-be-vietnam-pro">
             Why Choose Us
           </h2>
@@ -91,7 +91,7 @@ export default function HandicraftsManufacturingPage() {
               'Export-ready products with proper documentation and certifications',
             ].map((reason, index) => (
               <li key={index} className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-amber-600 rounded-full mt-2 flex-shrink-0" />
+                <div className="w-2 h-2 bg-amber-600 rounded-full mt-2 shrink-0" />
                 <span className="text-slate-700 font-be-vietnam-pro text-lg">
                   {reason}
                 </span>
@@ -127,7 +127,9 @@ export default function HandicraftsManufacturingPage() {
             with quality assurance and export compliance.
           </p>
           <Link
-            href="/contact"
+            href="https://www.gohigglerhandicraft.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-amber-600 px-8 py-4 rounded-lg font-semibold hover:bg-amber-50 transition-colors duration-300 font-be-vietnam-pro"
           >
             Get in Touch
