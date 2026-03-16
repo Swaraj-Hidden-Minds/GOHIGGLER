@@ -1,9 +1,15 @@
+"use client";
 
-
-"use client"
-
-import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Clock, MessageCircle, ArrowRight, Sparkles } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Clock,
+  MessageCircle,
+  ArrowRight,
+  Sparkles,
+} from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -40,8 +46,12 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">Email Us</h3>
-                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">24 hour response time</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">
+                    Email Us
+                  </h3>
+                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">
+                    24 hour response time
+                  </p>
                   <a
                     href="mailto:Gohiggler@gmail.com"
                     className="text-slate-900 hover:text-slate-700 transition-all duration-300 font-medium font-be-vietnam-pro underline decoration-2"
@@ -61,13 +71,17 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">Call Us</h3>
-                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">Instant support available</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">
+                    Call Us
+                  </h3>
+                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">
+                    Instant support available
+                  </p>
                   <a
-                    href="tel:+919374857655"
+                    href="tel:+919649095519"
                     className="text-slate-900 hover:text-slate-700 transition-all duration-300 font-medium font-be-vietnam-pro underline decoration-2"
                   >
-                    +91 93748 57655
+                    +91 96490 95519
                   </a>
                 </div>
               </div>
@@ -82,10 +96,15 @@ export default function ContactPage() {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">Visit Us</h3>
-                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">Corporate Office</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">
+                    Visit Us
+                  </h3>
+                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">
+                    Corporate Office
+                  </p>
                   <p className="text-slate-900 font-medium font-be-vietnam-pro">
-                    Udaipur, Rajasthan - 313001<br />
+                    Udaipur, Rajasthan - 313001
+                    <br />
                     India
                   </p>
                 </div>
@@ -101,11 +120,17 @@ export default function ContactPage() {
                   <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">Business Hours</h3>
-                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">We're available</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2 font-be-vietnam-pro">
+                    Business Hours
+                  </h3>
+                  <p className="text-sm text-slate-600 mb-3 font-be-vietnam-pro">
+                    We're available
+                  </p>
                   <p className="text-slate-900 font-medium font-be-vietnam-pro">
-                    Monday - Friday: 9:00 AM - 6:00 PM<br />
-                    Saturday: 10:00 AM - 4:00 PM<br />
+                    Monday - Friday: 9:00 AM - 6:00 PM
+                    <br />
+                    Saturday: 10:00 AM - 4:00 PM
+                    <br />
                     <span className="text-slate-600">Sunday: Closed</span>
                   </p>
                 </div>
@@ -117,13 +142,17 @@ export default function ContactPage() {
         {/* CTA Section */}
         <Card className="shadow-xl border-2 border-slate-900 bg-gradient-to-br from-slate-900 to-slate-800 text-white max-w-5xl mx-auto">
           <CardContent className="p-12 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-be-vietnam-pro">Ready to Get Started?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-be-vietnam-pro">
+              Ready to Get Started?
+            </h2>
             <p className="text-lg text-slate-200 mb-8 font-be-vietnam-pro max-w-2xl mx-auto">
-              Whether you need construction services, legal technology solutions, or handicraft manufacturing—our team of experts is ready to help.
+              Whether you need construction services, legal technology
+              solutions, or handicraft manufacturing—our team of experts is
+              ready to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+919374857655"
+                href="tel:+919649095519"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-slate-900 rounded-lg font-semibold hover:bg-slate-100 transition-all duration-300 hover:scale-105 font-be-vietnam-pro"
               >
                 <Phone className="w-5 h-5" />
